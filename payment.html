@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        font-size: xx-large;
+        font-weight: 900;
+    }
+    body{
+        font-size: x-large;
+        font-weight: 400;
+        margin-top: 10%;
+        margin-left: 36%;
+        background-image: url(IMG20210619130415.jpg);
+       
+    }
+    div{
+        height: 500px;
+        width: 400px;
+        background-color: antiquewhite;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid black;
+        box-shadow: 10px 10px 12px
+        black;
+
+    }
+    .main , label{
+        gap: 80px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    label , input ,select {
+        margin: 20px;
+       
+        width: 200px;
+        border-radius: 22px;
+        
+    }
+    button{
+        width: 150px;
+        
+    }
+
+</style>
+<body>
+    <div class="main">
+    <h1>payment</h1>
+    <label for="select"> chose your bank :-> </label>
+    <select id="select">
+        <option>bank of baroda </option>
+        <option>state bank of india  </option>
+        <option>punjab national bank  </option>
+        <option>HDFC bank  </option>
+        <option>kotak mahindra bank </option>
+    </select>
+
+    <br>
+    <label for="name"> enter name :-></label>
+    <input type="text" placeholder="enter your card name " id="name">
+
+
+
+
+    </br>
+    <label for="number"> card number :-></label>
+    <input type="text" placeholder="enter your card number " id="number">
+    <br>
+    <label for="daye"> card expiery :-></label>
+    <input type="date" placeholder="enter your card expiery " id="date">
+    <br>
+    <button>do payment</button>
+    </div>
+
+
+
+</body>
+</html>
