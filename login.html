@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(IMG20210619130338.jpg);
+    }
+    .main{
+        text-align: center;
+        background-color: rgb(22, 84, 84 , 0.5);
+        width: 500px;
+        height: 500px;
+        margin-left: 30%;
+        border: 2px solid black;
+        margin-top: 110px;
+        
+
+
+    }
+    .get{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 700;
+        margin-bottom: 50px;
+
+    }
+    input , button{
+        margin: 30px;
+        width: 220px;
+        height: 30px;
+        display: block;
+        border-radius: 22px;
+        border: 2px solid yellow;
+        transition: 0 0 ,0.25;
+        margin-left: 30%;
+    }
+    input:hover{
+        width: 280px;
+        height: 50px;
+    }
+    h1{
+        margin-top: 25px;
+    }
+</style>
+<body>
+    <div class="main">
+        <h1 class="get">--/--Get the pdfs--/-- </h1>
+        <input type="text" placeholder="enter the email  " id="email">
+        <input type="text" placeholder="enter the password  " id="password">
+        <button  type="submit"  onclick="auth()">verify</button>
+    </div>
+
+    <script>
+        function auth(){
+            var mail = document.getElementById("email").value;
+            var pass = document.getElementById("password").value;
+    
+            if(mail=="gansh3764@gmail.com" && pass=="kingansh121")
+            {
+            alert("login successfull");
+            window.location.assign('link1.html');
+            }
+            else{
+                alert(" Beta paasword dobara daal barna nikal");
+                return;
+            }
+    
+        }
+    </script>
+   
+</body>
+
+</html>
