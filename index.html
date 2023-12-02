@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bcs-303</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .image1{
+        width: 100%;
+        height: 750px;
+    }
+    .overlay-text{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        font-size: xx-large;
+        font-style: oblique;
+        width: 100%;
+        backdrop-filter: blur(5px);
+        background-color: rgb(255, 255, 255, 0.623);
+    }
+    .image2{
+        height: 200px;
+        width: 200px;
+       
+  
+  
+
+        
+
+    }
+    
+    
+    .head1{
+        display: flex;
+        flex-direction: row;
+        gap: 300px;
+        
+        
+        margin-left: 100px;
+        margin-right: 50px;
+        padding: 50px ,40px;
+        
+    }
+    .head3{
+      display: flex;
+        flex-direction: row;
+        gap: 300px;
+        
+        
+        margin-left: 100px;
+        margin-right: 50px;
+        padding: 50px ,40px;
+        margin-top: 60px;
+    }
+    
+    .foot{
+      background-color: darkcyan;
+      color: beige;
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+
+.sign1{
+  height: 40px;
+  width: 200px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  opacity: unset;
+  
+  
+
+
+}
+
+
+.sign{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.form{
+  text-align: center;
+ 
+  gap: 20px;
+  background-color: rgb(175, 171, 180);
+  font-size: x-large;
+ 
+  padding: 15px;
+  
+  
+  
+
+}
+.form{
+  width: 600px;
+  margin-left: 30%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  box-shadow: 10px 10px 12px black
+ ;
+ background-image: url(IMG20210619130415.jpg);
+}
+.ansh{
+  background-color: darkslategrey;
+  display: flex;
+  height: 40px;
+
+  
+}
+.headtext{
+  padding-top: 20px;
+}
+.info{
+  margin-left: 1150px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  padding-left: 15px;
+}
+.form1{
+  gap: 10px;
+}
+.img2{
+  height: 1000px;
+  width: 100%;
+}
+.btn3{
+  background-color: green;
+  color: #fff;
+  text-align: center;
+}
+.price{
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  
+  margin-left: 13%;
+  background-color: antiquewhite;
+  width: 220px;
+  padding: 25px;
+  border: 2px solid black;
+ 
+  
+}
+.white{
+  background-color: #fff;
+
+}
+.pp{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  color: #333;
+  font-display: 10px 10px 12px 
+  black
+  ;
+}
+.maina{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 25px;
+  padding-right: 20px;
+  padding-top: 20px;
+ 
+  background-color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: initial;
+  font-variant: inherit;
+  padding-left: 10px;
+  color: white;
+  border-radius: 0%;
+  position: fixed;
+  width: 100%;
+  z-index: 999 ;
+  box-shadow: 10px 10px 12px
+   black;
+
+}
+.maina, h4{
+  color: white;
+  border-radius: 0%;
+}
+.logina{
+  margin-right: 800px;
+  color: white;
+}
+.photo2{
+  padding-top: -50px;
+  margin-top: -150px;
+}
+
+.notes{
+  text-align: center;
+  
+  padding-bottom: 50px;
+}
+h1{
+  position: relative;
+  font-weight: 900;
+  text-decoration:12px  #333;}
+h1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #333;
+
+}
+h1:hover::after{
+  width: 100%;
+  transition: all ease 1s;
+
+}
+a{
+  text-decoration: none;
+}
+.member{
+  margin-left: 100px;
+}
+.logo{
+  margin: 50px;
+  margin-bottom: 30px;
+}
+.our{
+  text-align: center;
+  padding-top: 40px;
+}
+.head ,img{
+  border: 2px solid black;
+  box-shadow: 10px 10px 12px
+  black;
+  
+}
+
+.whatsapp_float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 70px;
+      background-color: #25d366;
+      color: black;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 12px 
+      black;
+      z-index: 100;
+    }
+    .whatsapp-icon {
+      margin-top: 16px;
+    }
+
+    /* for mobile */
+    @media screen and (max-width: 767px){
+      .whatsapp-icon {
+        margin-top: 10px;
+      }
+      .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+      }
+    }
+    .whp{
+      position: fixed;
+      bottom: 100px;
+      right: 40px;
+
+    }
+    .ratingansh{
+      
+      background-color: aquamarine;
+      width: 400px;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 10px 10px 12px 
+      blue;
+
+    
+      
+    }
+    
+    .rating2{
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.258);
+      border-radius: 10px;
+      margin-left: 50px;
+      margin-top: 40px;
+      
+      backdrop-filter: blur(10px);
+      text-align: center;
+      justify-content: center;
+      font-size: medium;
+      font-weight: 900;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .rating2 , h3 ,h6{
+      padding-top: 30px;
+    }
+    .ratesas{
+      margin-left: 35%;
+    }
+    .offer{
+      padding-top: 30px;
+      text-align: center;
+    }
+    .popup{
+      width: 400px;
+      background: hsl(0, 0%, 100%);
+      border-radius: 12px;
+      top: 0%;
+      margin-left: 50%;
+      transform:translate(-50%,-50%)scale(0.1);
+      text-align: center;
+      padding: 0 30px 30px ;
+      color: #333;
+      visibility: hidden;
+      box-shadow: 10px 10px 12px 
+      black;
+
+    }
+    .open-popup{
+      visibility: visible;
+      top: 20%;
+      transform:translate(-50%,-50%) scale(1);
+    }
+    .popup button{
+      width: 100%;
+      margin-top: 50px;
+      padding: 10px 0;
+      background-color: green;
+      font-size: xx-large;
+      font-weight: 900;
+    }
+    
+
+
+
+
+
+    
+</style>
+<body>
+  
+  
+<div class="maina">
+  
+      
+      <h4><i class="fa fa-home"></i>HOME</h4>
+      <a href="#products"><h4>product</h4></a>
+      <a href="#fat"><h4>about</h4></a>
+      <a href="#fat"><h4>contact</h4></a>
+      <a href="#chat"><h4>chatus</h4></a>
+      
+      <a href="#information"><h4 class="logina">LOGIN<i class="fa-solid fa-sign-in"></i></h4></a>
+</div>
+ 
+ 
+
+
+
+<div class="">
+        <img class="image1" src="Screenshot_20231108_110216.png">
+        <div class="overlay-text">
+            <h1> Handwritten pdf notes  </h1>
+        </div>
+</div>
+<section id="chat">
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">   Who these notes help your graduation journey </h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">HAND WRITTEN </h3>
+        <p> these notes are captured by professional students or teachers copy these are neat and clean notes</p>
+        <a href="#" class="icon-link">
+          Call to action
+          
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">EASY TO READ</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link">
+          Call to action
+         
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">EXPLAIN WITH DIAGRAM</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link">
+          Call to action
+                
+              </a>
+            </div>
+          </div>
+        </div>
+
+</section>
+    
+
+      <h1 class="notes">choose your notes : -></h1>
+      <div class="main">
+      
+
+
+    
+   <div class="head1">
+   
+    <div class="head2">
+        
+        <img class="image2" src="IMG20210619130334.jpg">
+        <h1>  b.pharma </h1>
+        <button class="btn"><a href="login.html">click and get pdfs</a></button>
+            
+
+       
+      
+
+    </div>
+    <div class="head2">
+        
+        <img class="image2" src="Screenshot 2023-10-13 101724.png">
+        <h1> btech (cs) </h1>
+        <button class="btn"><a href="login.html">click and get pdfs</a></button>
+            
+
+       
+      
+
+    </div>
+    <div class="head2">
+        
+        <img class="image2" src="Screenshot_20231104_102441.png">
+        <h1>x  bca  </h1>
+        <button class="btn"><a href="login.html">click and get pdfs</a></button>
+            
+
+       
+      
+
+    </div>
+
+    
+    </div>
+    <div class="head3">
+   
+      <div class="head2">
+          
+          <img class="image2" src="IMG20210820203159.jpg">
+          <h1>  BBA </h1>
+          <button class="btn"><a href="login.html">click and get pdfs</a></button>
+              
+  
+         
+        
+  
+      </div>
+      <div class="head2">
+          
+          <img class="image2" src="IMG20210619130415.jpg">
+          <h1> d.pharm </h1>
+          <button class="btn"><a href="login.html">click and get pdfs</a></button>
+              
+  
+         
+        
+  
+      </div>
+      <div class="head2">
+          
+          <img class="image2" src="IMG20210619130338.jpg">
+          <h1>   mba </h1>
+          <button class="btn"><a href="login.html">click and get pdfs</a></button>
+              
+  
+         
+        
+  
+      </div>
+      
+      
+      </div>
+    </div>
+    <section id="information">
+      <div class="mainform">
+        <form class="form" action="gansh3764@gmail.com" method="POST" >
+          <diV class="form1">
+            <h2 class="sign">sign in for account </h2>
+            <label for="name">Name :-> </label>
+      
+      
+            <input type="text" id="name" placeholder="please enter your name " ><br>
+      
+            <br>
+            
+            <label for="branch">branch :-></label>
+            <input type="text" id="branch" placeholder="enter your branch"></br>
+      
+            <br>
+            <label for="course">course :-></label>
+            <input type="text" id="course" placeholder="enter your course"><br>
+      
+            <br>
+            <label for="mail">gmail :-></label>
+            <input type="text" id="mail" placeholder="please enter your gmail">
+      
+            <br>
+      
+            <br>
+            <button class="btn3"  onclick="openpopup()">-submit-</button>
+            
+      
+          </form>
+          
+        </diV>
+
+      </div>
+      <div class="popup" id="popup">
+        <img src="">
+        <h2>Thank you! </h2>
+        <p>your details have been successfully submited . Thanks!</p>
+        <button onclick="closepopup()"> ok </button>
+      </div>
+    </section>
+    
+    
+   <section id="products">
+    <div class="photo2">
+      <h1 class="pp"> :-------- pricing plan -------: </h1>
+      
+     <br>
+     <p class="pp">if you are intrested in get extra preks like one bi one doubt plan and get <br>
+     somr important advice from our instructor so you can buy these plan</p>
+     <div class="price">
+        <h2>packages</h2>
+        <h4 class="white">$59</h4>
+        <p>/monthly</p>
+        <br>
+        <p class="white">live doubt </p>
+        <br>
+        <p>24*7 solving</p>
+        <br>
+        <p class="white">10gb cloud sto.</p>
+        <br>
+        <p>extra play time</p>
+        
+        <br>
+        <a href="payment.html"><button class="btna">-:- buy now -:-</button></a>
+ 
+     </div>
+     <div class="price">
+       <h2>packages</h2>
+       <h4 class="white">$59</h4>
+       <p>/monthly</p>
+       <br>
+       <p class="white">live doubt </p>
+       <br>
+       <p>24*7 solving</p>
+       <br>
+       <p class="white">10gb cloud sto.</p>
+       <br>
+       <p>extra play time</p>
+       
+       <br>
+       <a href="payment.html"><button class="btna">-:- buy now -:-</button></a>
+ 
+    </div>
+    <div class="price">
+     <h2>packages</h2>
+     <h4 class="white">$59</h4>
+     <p>/monthly</p>
+     <br>
+     <p class="white">live doubt </p>
+     <br>
+     <p>24*7 solving</p>
+     <br>
+     <p class="white">10gb cloud sto.</p>
+     <br>
+     <p>extra play time</p>
+     
+     <br>
+     <a href="payment.html"><button class="btna">-:- buy now -:-</button></a>
+
+ 
+  </div>
+  </div>
+  </div>
+  
+   </section>
+
+   <section>
+    <div class="live-offer">
+      <h1 class="our">----our permanent members----</h1>
+      <div class="member">
+      <img class="logo" src="Screenshot_20231127_105100.png" height="200px" width="200px">
+      <img class="logo" src="Screenshot_20231127_105019.png" height="200px" width="200px">
+      <img class="logo" src="Screenshot_20231127_104957.png" height="200px" width="200px">
+      <img class="logo" src="Screenshot_20231127_104846.png" height="200px" width="200px">
+      
+      </div>
+      
+      
+    </div>
+   </section>
+   <div class="offer">
+    <h1>:---our life offer---:</h1>
+   
+  
+   </div>
+   <div class="ratesas">
+    <div class="ratingansh">
+    <div class="rating2">
+      <h1>--ALERT!--</h1>
+      <h3>1 month trail </h3>
+      <h6>you get trail free for 1 month </h6>
+      <h6>you can get your id and password from whatsapp</h6>
+    </div>
+   </div>
+   </div>
+
+    
+    <section id="fat">
+      <footer class="foot">
+        <h4>we are across 12 aktu colleges and many of students follow our notes </h4>
+        <h5>over 10000 students reached in this website and follow our note 
+          
+        </h5>
+        <h5>we provided simple otes with a simple english and good writting </h5>
+        <h5>we wre across cover the 10 district </h5>
+        <h5>if any queru you can free to call 9118218424</h5>
+        <h5>visit :-> www.simplenotes.com</h5>
+      </footer>
+    </section>
+
+   <a href="https:/wa.me/+918756398424"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+   <h3 class="whp">chat with us !</h3>
+
+   <div>
+    
+   </div>
+   
+   
+    
+
+<script src="project.js"></script>    
+
+</body>
+</html>
